@@ -31,7 +31,7 @@ if __name__ == "__main__":
           subject      = 'I love you!', 
           message      = 'I love you!\nJH@KrappLab', 
           login        = 'jh4209@ic.ac.uk', 
-          password     = base64.b64decode(b'Qm9tYmFzdGljNjI2').decode("utf-8"),
+          password     = base64.b64decode(b'not_important').decode("utf-8"),
           smtpserver='smtp.office365.com:587')
 
     print("Test email is sent!")
